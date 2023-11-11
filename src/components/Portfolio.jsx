@@ -31,7 +31,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: reactParallax,
-      demoURL: "https://github.com/darkbecker4-97/finance-control.git",
+      demoURL: "https://tourmaline-cassata-fe6185.netlify.app",
       codeURL: "https://github.com/darkbecker4-97/finance-control.git",
     },
     {
