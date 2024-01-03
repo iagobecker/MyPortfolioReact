@@ -34,7 +34,7 @@ const NavBar = () => {
         <h1 className="text-6xl font-signature ml-2">iago mendonça</h1>
       </div>
 
-      <ul className="hidden md:flex ">
+      <ul className="hidden md:flex max-w-screen-lg mx-auto">
         {links.map(({ id, link }) => (
           <NavLinks
             key={id}
