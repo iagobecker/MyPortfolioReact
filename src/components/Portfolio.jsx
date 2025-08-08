@@ -1,6 +1,6 @@
 import React from "react";
 
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+//import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -9,24 +9,33 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
+    // {
+    //   id: 1,
+    //   src: arrayDestruct,
+    //   demoURL:
+    //     "https://user-images.githubusercontent.com/83254191/276341236-e0fcd992-9c9e-4129-94c0-ae417c769d2b.jpg",
+    //   codeURL: "https://github.com/darkbecker4-97/AppHotelReactNative.git",
+    // },
     {
       id: 1,
-      src: arrayDestruct,
+      src: "https://res.cloudinary.com/dwucy4ffg/image/upload/v1754687385/Captura_de_tela_2025-08-08_180929_uzrkpl.png",
       demoURL:
-        "https://user-images.githubusercontent.com/83254191/276341236-e0fcd992-9c9e-4129-94c0-ae417c769d2b.jpg",
-      codeURL: "https://github.com/darkbecker4-97/AppHotelReactNative.git",
+        "https://bruna-paula-fotografia.vercel.app/",
+      codeURL: "https://github.com/iagobecker/landing-page.git",
     },
     {
       id: 2,
+      src: "https://res.cloudinary.com/dwucy4ffg/image/upload/v1754686779/Captura_de_tela_2025-08-08_175912_vlopof.png",
+      demoURL:
+        "https://rtodontopa.vercel.app/",
+      codeURL: "https://github.com/iagobecker/dentista-landing-page.git",
+    },
+    
+    {
+      id: 3,
       src: installNode,
       demoURL: "https://portfolioiagobecker.netlify.app",
       codeURL: "https://github.com/darkbecker4-97/Potfolio.git",
-    },
-    {
-      id: 3,
-      src: navbar,
-      demoURL: "https://github.com/darkbecker4-97/Bootstrap2.0.git",
-      codeURL: "https://github.com/darkbecker4-97/Bootstrap2.0.git",
     },
     {
       id: 4,
@@ -36,12 +45,19 @@ const Portfolio = () => {
     },
     {
       id: 5,
+      src: navbar,
+      demoURL: "https://github.com/darkbecker4-97/Bootstrap2.0.git",
+      codeURL: "https://github.com/darkbecker4-97/Bootstrap2.0.git",
+    },
+    
+    {
+      id: 6,
       src: reactSmooth,
       demoURL: "https://github.com/darkbecker4-97/ServicosMDark.git",
       codeURL: "https://github.com/darkbecker4-97/ServicosMDark.git",
     },
     {
-      id: 6,
+      id: 7,
       src: reactWeather,
       demoURL: "https://github.com/darkbecker4-97/LandingPageProt.git",
       codeURL: "https://github.com/darkbecker4-97/LandingPageProt.git",
@@ -55,7 +71,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-700 w-full text-white md:h-screen"
+      className="w-full pt-20 bg-gradient-to-b from-black to-gray-700  text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

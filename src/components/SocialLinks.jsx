@@ -24,7 +24,7 @@ const SocialLinks = () => {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/darkbecker4-97",
+      href: "https://github.com/iagobecker",
       style: "rounded-tr-md",
     },
     {
